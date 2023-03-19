@@ -1,0 +1,7 @@
+[[language]]
+name = "rust"
+
+[language.config]
+checkOnSave.command = "clippy"
+checkOnSave.allTargets = false
+checkOnSave.extraArgs = [ "--target", "riscv32imc-unknown-none-elf"]
