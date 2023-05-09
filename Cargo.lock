@@ -164,13 +164,12 @@ dependencies = [
 ]
 
 [[package]]
-name = "esp_test"
+name = "esp32c3-template"
 version = "0.1.0"
 dependencies = [
  "esp-backtrace",
  "esp-println",
  "esp32c3-hal",
- "nb 1.1.0",
 ]
 
 [[package]]
